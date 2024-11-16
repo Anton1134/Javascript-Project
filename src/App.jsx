@@ -1,11 +1,20 @@
 import './assets/css/main.css'
+import TopBar from './components/TopBar'
+import Footer from './components/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
+    <div className='wrapper'>
+      <TopBar />
+      <main>
 
+      </main>
+      
+      <Footer />
+    </div>
     </>
   )
 }
