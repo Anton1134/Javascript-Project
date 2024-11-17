@@ -12,7 +12,6 @@ function App() {
       <main>
 
       </main>
-      
       <Footer />
     </div>
     </>
